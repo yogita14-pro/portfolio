@@ -1,7 +1,7 @@
-import React, {useRef} from "react";
+import React from "react";
 import mysitpic from "./Images/sittingpic.jpg";
 import {motion} from "framer-motion";
-import { ParallaxLayer, Parallax, IParallax } from "@react-spring/parallax";
+
 const container={
     hidden:{
         opacity:1, scale:0
@@ -38,7 +38,7 @@ function Hpage(){
   return(
     <div id="portfoliohome">
         <motion.div className="rectimg" variants={container} initial="hidden" animate="visible" >
-        <motion.img src={mysitpic} variants={downitem} alt="yogita picture" ></motion.img>
+        <motion.img src={mysitpic} variants={downitem} alt="yogita" ></motion.img>
     </motion.div>
             <motion.ul className="port"  initial="hidden" animate="visible">
                 <motion.li className="darkli" variants={item} transition={{ delay: 0.51 }}>PORTFOLIO</motion.li>

@@ -18,7 +18,7 @@ function Projects(){
                     </ParallaxLayer>
                     <ParallaxLayer offset={1} speed={0.5} style={{ ...alignCenter, justifyContent: 'end' }}>
                     <div className='card'>
-                        <img src={ccalpic}></img>
+                        <img src={ccalpic} alt='website'></img>
                         <h1>Currency Calculator</h1>
                         <p>Converting and Calculating different Currencies using currency API </p>
                         <button>View Project</button>              
@@ -27,7 +27,7 @@ function Projects(){
 
                     <ParallaxLayer offset={2} speed={0.5} style={{ ...alignCenter, justifyContent: 'end' }}>
                     <div className='card'>
-                        <img src={artpic}></img>
+                        <img src={artpic} alt='website'></img>
                         <h1>Web Scraping</h1>
                         <p>Fetched the Amazon's top 10 best Selling Books using Python's Web Scraping tools</p>
                         <button>View Project</button>
@@ -35,7 +35,7 @@ function Projects(){
                     </ParallaxLayer>
                     <ParallaxLayer offset={3} speed={0.5} style={{ ...alignCenter, justifyContent: 'end' }}>
                     <div className='card'>
-                        <img src={aura}></img>
+                        <img src={aura} alt='website'></img>
                         <h1>My Art Website</h1>
                         <p>Converting and Calculating different Currencies using currency API </p>
                         <button>View Project</button>              
@@ -43,7 +43,7 @@ function Projects(){
                     </ParallaxLayer>
                     <ParallaxLayer offset={4} speed={1.5} style={{ ...alignCenter, justifyContent: 'end' }}>
                     <div className='card'>
-                        <img src={cpic}></img>
+                        <img src={cpic} alt='website'></img>
                         <h1>Calculator</h1>
                         <p>Made a Simple Calculator using HTML, CSS and JavaScipt </p>
                         <button>View Project</button>
@@ -51,7 +51,7 @@ function Projects(){
                     </ParallaxLayer>
                     <ParallaxLayer offset={5} speed={1.5} style={{ ...alignCenter, justifyContent: 'end' }}>
                     <div className='card'>
-                        <img src={dnbpic}></img>
+                        <img src={dnbpic} alt='website'></img>
                         <h1>Documentation</h1>
                         <p>Developed a web page for documenting the work of Dr. Norman Borlaug</p>
                         <button>View Project</button>
@@ -59,7 +59,7 @@ function Projects(){
                     </ParallaxLayer>
                     <ParallaxLayer offset={6} speed={1.5} style={{ ...alignCenter, justifyContent: 'end' }}>
                     <div className='card'>
-                        <img src={fapic}></img>
+                        <img src={fapic} alt='website'></img>
                         <h1>Face Authentication</h1>
                         <p>Developed a Face Detection and Authentication System to log-in into a website</p>
                         <button>View Project</button>
