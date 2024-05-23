@@ -23,9 +23,9 @@ function Sechome(){
                 <div className="imgcont">
                 <h2>Contact</h2>
                 <ul>
-                    <li><img src={loc} className="contliimg"></img>Haryana, India</li>
-                    <li><img src={mail} className="contliimg"></img>yogita.14.cdy@gmail.com</li>
-                    <li><img src={ph} className="contliimg"></img>9024838217</li>
+                    <li><img src={loc} className="contliimg" alt="location"></img>Haryana, India</li>
+                    <li><img src={mail} className="contliimg" alt="email"></img>yogita.14.cdy@gmail.com</li>
+                    <li><img src={ph} className="contliimg" alt="number"></img>9024838217</li>
                 </ul>
                 </div>
                 <div className="dob blocbut"> 14th January 2002</div>

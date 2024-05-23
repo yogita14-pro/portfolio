@@ -38,7 +38,7 @@ function Hpage(){
   return(
     <div id="portfoliohome">
         <motion.div className="rectimg" variants={container} initial="hidden" animate="visible" >
-        <motion.img src={mysitpic} variants={downitem} ></motion.img>
+        <motion.img src={mysitpic} variants={downitem} alt="yogita picture" ></motion.img>
     </motion.div>
             <motion.ul className="port"  initial="hidden" animate="visible">
                 <motion.li className="darkli" variants={item} transition={{ delay: 0.51 }}>PORTFOLIO</motion.li>
