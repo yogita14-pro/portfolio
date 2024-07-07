@@ -5,7 +5,7 @@ import lc from "./Images/LeetCode_Logo_1.png";
 import x from "./Images/twitter-x.webp";
 function Footer(){
     return(
-        <div className="footer">
+        <footer id="footer">
             <div className="fpart1">
                 <h1>Yogita Choudhary</h1>
                 <ul>
@@ -17,10 +17,10 @@ function Footer(){
                     <li>Works</li>
                 </ul>
                 <ul className="logo">
-                    <li><a href="https://www.linkedin.com/in/yogita-choudhary-286942201/"><img src={link} alt="logo-img"></img></a></li>
-                    <li><a href="https://github.com/yogita14-pro"><img src={git} alt="logo-img"></img></a></li>
-                    <li><a href="https://leetcode.com/u/Yogita_codes/"><img src={lc} alt="logo-img"></img></a></li>
-                    <li><a href="https://twitter.com/yogita14_cdy"><img src={x} alt="logo-img"></img></a></li>
+                    <li><a href="https://www.linkedin.com/in/yogita-choudhary-286942201/" target="_blank" rel="noreferrer"><img src={link} alt="logo-img"></img></a></li>
+                    <li><a href="https://github.com/yogita14-pro" target="_blank" rel="noreferrer"><img src={git} alt="logo-img"></img></a></li>
+                    <li><a href="https://leetcode.com/u/Yogita_codes/" target="_blank" rel="noreferrer"><img src={lc} alt="logo-img"></img></a></li>
+                    <li><a href="https://twitter.com/yogita14_cdy" target="_blank" rel="noreferrer"><img src={x} alt="logo-img"></img></a></li>
                 </ul>
             </div>
             <div className="fpart2">
@@ -31,7 +31,7 @@ function Footer(){
                     <button>SEND</button>
                 </form>
             </div>
-        </div>
+        </footer>
     )
 }
 export default Footer;

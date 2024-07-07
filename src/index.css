@@ -50,7 +50,7 @@ nav.active{
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
 }
-li>button{
+.head-button{
   padding: 5px 15px;
   border-radius: 100px;
   border: 2px solid orange;
@@ -509,7 +509,7 @@ a{
 button:hover{
   cursor: pointer;
 }
-.footer{
+footer{
   position: relative;
   background-color: orange;
   padding: 50px 100px 50px 50px;

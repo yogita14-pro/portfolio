@@ -40,9 +40,9 @@ function Navbar(){
       </label>
       <ul className="menu">
       <li><a href="#about" style={{color:clr}}>About Me</a></li>
-      <li><a href="https://drive.google.com/file/d/1stqbyA5T6j_0nE2yGq4MxIhPk8leF_zu/view" style={{color:clr}}>Resume</a></li>
+      <li><a href="https://drive.google.com/file/d/1stqbyA5T6j_0nE2yGq4MxIhPk8leF_zu/view" style={{color:clr}} target="_blank" rel="noreferrer">Resume</a></li>
       <li><a href="#work" style={{color:clr}}>Work</a></li>
-        <li><button>Get in Touch!</button></li>
+        <li><a href="#footer"><button className="head-button">Get in Touch!</button></a></li>
     </ul>
     </nav>
  )

@@ -48,10 +48,10 @@ function Hpage(){
             </motion.ul>
             <div className="ids">
                 <motion.ul variants={item} initial="hidden" animate="visible" transition={{ delay: 1.5 }} >
-                    <motion.li variants={downitem}>LI: <a href="https://www.linkedin.com/in/yogita-choudhary-286942201/">/yogita-choudhary</a></motion.li>
-                    <motion.li variants={downitem}>GH: <a href="https://github.com/yogita14-pro">/yogita-choudhary</a></motion.li>
-                    <motion.li variants={downitem}>LC: <a href="https://leetcode.com/u/Yogita_codes/">/yogita-choudhary</a></motion.li>
-                    <motion.li variants={downitem}>X: <a href="https://twitter.com/yogita14_cdy">/yogita-choudhary</a></motion.li>
+                    <motion.li variants={downitem}>LI: <a href="https://www.linkedin.com/in/yogita-choudhary-286942201/" target="_blank" rel="noreferrer">/yogita-choudhary</a></motion.li>
+                    <motion.li variants={downitem}>GH: <a href="https://github.com/yogita14-pro" target="_blank" rel="noreferrer">/yogita-choudhary</a></motion.li>
+                    <motion.li variants={downitem}>LC: <a href="https://leetcode.com/u/Yogita_codes/" target="_blank" rel="noreferrer">/yogita-choudhary</a></motion.li>
+                    <motion.li variants={downitem}>X: <a href="https://twitter.com/yogita14_cdy" target="_blank" rel="noreferrer">/yogita-choudhary</a></motion.li>
                 </motion.ul>
             </div>
 

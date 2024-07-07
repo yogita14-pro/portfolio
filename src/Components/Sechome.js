@@ -15,7 +15,7 @@ function Sechome(){
                     I am a Python programmer and a web developer based in India with extensive problem solving skills. I am currently a 4th year student persuing my B.Tech in Computer Science and Engineering.
                     I am an Artist and a Founder of a Tech community at my College. 
                 </p>
-                <div className="lkp"><a href="#home">Linkedin.com/in/Yogita-choudhary</a></div>
+                <div className="lkp"><a href="https://www.linkedin.com/in/yogita-choudhary-286942201/" target="_blank" rel="noreferrer">Linkedin.com/in/Yogita-choudhary</a></div>
             </div>
             <div className="conthome">
                 <div className="rectgreen"></div>
